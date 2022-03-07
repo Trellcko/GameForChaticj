@@ -1,0 +1,104 @@
+{
+    "name": "InputController",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "bd5810ca-e9de-4570-a087-d8ceb4e6863a",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Button",
+                    "id": "a0cda28d-ce86-4c2c-af39-94cea94db4ef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FlashLigth",
+                    "type": "Button",
+                    "id": "62a2a7b6-b911-4f3a-af2f-19d2a094d47e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "40930513-465f-4aa9-90eb-89171557fdef",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "6be23e7f-8fc3-4fc9-b5a0-68ad074261e7",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "b36a9860-b89c-4f8c-98e7-1d521d9cc0a7",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "c80a7ca2-fb89-4c55-a7b5-1de6da3a3073",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FlashLigth",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Controll",
+            "id": "1266f242-db72-4a99-91ab-62c413579f3e",
+            "actions": [
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "985c9e04-42bd-40bd-b38f-585e61a17a98",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e2cfee52-9822-442c-bb2d-38d77c96cb1e",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
